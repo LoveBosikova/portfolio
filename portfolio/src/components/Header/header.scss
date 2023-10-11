@@ -1,0 +1,39 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+
+.header {
+    @include flex-sbetween-center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+
+    &__name {
+        font-size: 1.35rem;
+        margin-left: 3rem;
+        cursor: pointer;
+        color: $main-black;
+    }
+
+    &__navWrap {
+        width: 18%;
+    }
+
+    &__navitems {
+        @include flex-sbetween-center;
+        margin-right: 3rem;
+        font-size: 1rem;
+    }
+
+    &__navlink {
+        &:hover {
+            color: $activeLinks;
+        }
+    }
+}

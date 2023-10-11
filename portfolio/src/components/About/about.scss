@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+.about {
+    @include flex-sbetween-center;
+    
+    &__container {
+        @include container-width;
+        @include mx-center;
+    }
+
+    &__handImg {
+        max-height: 100%;
+        height: 1rem;
+    }
+}
