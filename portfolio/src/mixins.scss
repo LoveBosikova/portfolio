@@ -1,6 +1,14 @@
+// COMMON
+
 @mixin flex-sbetween-center {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-start-center {
+    display: flex;
+    justify-content: start;
     align-items: center;
 }
 
@@ -11,4 +19,33 @@
 
 @mixin container-width {
     width: 50vw;
+}
+
+@mixin hover-up {
+    margin-top: -.5rem;
+}
+
+// FONTS
+
+@mixin moolish-800-11 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+@mixin moolish-400-13 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+@mixin poppins-700 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+@mixin poppins-700-11 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
 }
