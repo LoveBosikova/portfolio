@@ -13,8 +13,9 @@ export default function Portfolio (props) {
                     <Project img={'./SleepBabySleep.webp'}
                             alt={'Sleeptracker for kids'}
                             name={'SleepBabySleep'}
-                            time={'Summer 2023'}
-                            emoji={'&#128164'}
+                            time={'(Summer 2023)'}
+                            emoji={'💤'}
+                            description={'The SleepBabySleep website is an online platform that allows users to normalixe kids sleeping. The website provides an interface for input, searching, saving sleep intervals and statistic scrutiny.'}
                             tech1={'SCSS'}
                             tech2={'Vanila JS'}/>
 

@@ -1,0 +1,19 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+.portfolio {
+    @include portfolio-width;
+    @include mx-center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+    &__wrap {
+    background-color: $light-bgcolor;
+    }
+
+    &__projectsWrap {
+        max-width: 100%;
+        padding-top: 3.5rem;
+    }
+    margin-bottom: 100vh;
+}
