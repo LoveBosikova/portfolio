@@ -120,3 +120,11 @@
         color: $main-black;
     } 
 }
+
+.flex-reverse {
+    flex-direction: row-reverse !important;
+}
+
+.flex-column {
+    flex-direction: row;
+}

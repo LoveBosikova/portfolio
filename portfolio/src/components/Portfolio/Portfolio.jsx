@@ -19,7 +19,8 @@ export default function Portfolio (props) {
                             demo={'https://lovebosikova.github.io/sleepBabySleep/'}
                             description={'The SleepBabySleep website is an online platform that allows users to normalixe kids sleeping. The website provides an interface for input, searching, saving sleep intervals and statistic scrutiny.'}
                             tech1={'SCSS'}
-                            tech2={'Vanila JS'}/>
+                            tech2={'Vanila JS'}
+                            flex={'column'}/>
 
                     <Project img={'./yandexScooter.webp'}
                             alt={'Lending for yandexScooter'}
@@ -30,7 +31,8 @@ export default function Portfolio (props) {
                             tech1={'SCSS'}
                             tech2={'Vanila JS'}
                             demo={'https://lovebosikova.github.io/yandexGoScooter/'}
-                            git={'https://github.com/LoveBosikova/yandexGoScooter'}/>
+                            git={'https://github.com/LoveBosikova/yandexGoScooter'}
+                            flex={'reverse'}/>
 
                     <Project img={'./MyEnglish.webp'}
                             alt={'WebApp for MyEnglish'}
@@ -41,7 +43,8 @@ export default function Portfolio (props) {
                             tech1={'SASS'}
                             tech2={'Vanila JS'}
                             demo={'https://github.com/LoveBosikova/english-school'}
-                            git={'https://taorkon.github.io/english-school/'}/>
+                            git={'https://taorkon.github.io/english-school/'}
+                            flex={'column'}/>
 
                     <Project img={'./flyjet.webp'}
                             alt={'Landing for TFT Aero'}
@@ -52,7 +55,8 @@ export default function Portfolio (props) {
                             tech1={'Vanila СSS'}
                             tech2={'Vanila JS'}
                             demo={'https://lovebosikova.github.io/superproject/'}
-                            git={'https://github.com/LoveBosikova/superproject'}/>
+                            git={'https://github.com/LoveBosikova/superproject'}
+                            flex={'reverse'}/>
 
                     <Project img={'./DinMy.webp'}
                             alt={'Landing for a dog sitter'}
@@ -63,7 +67,8 @@ export default function Portfolio (props) {
                             tech1={'Vanila СSS'}
                             tech2={'Vanila JS'}
                             git={'https://github.com/LoveBosikova/1stProject'}
-                            demo={'https://lovebosikova.github.io/1stProject/'}/>
+                            demo={'https://lovebosikova.github.io/1stProject/'}
+                            flex={'column'}/>
                 </div>
             </div>
         </section>

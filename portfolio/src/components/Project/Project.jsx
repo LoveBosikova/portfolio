@@ -1,9 +1,16 @@
 import styles from './project.scss';
 
+import cn from 'classnames';
+
 export default function Project (props) {
+
+    const flexDirection = cn('project__wrap', {
+        'flex-column': props.flex === 'column',
+        'flex-reverse': props.flex === 'reverse'});
+
     return (
         <article className="project">
-            <div className="project__wrap">
+            <div className={flexDirection}>
                 <div className="project__imgSide">
                     <a className="project__imgWrap" href="http://" target="_blank">
                         <img src={props.img} alt={props.alt} className="project__img" />
