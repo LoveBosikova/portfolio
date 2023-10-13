@@ -67,6 +67,25 @@
     font-size: 1.1rem;
 }
 
+@mixin poppins-200-12 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+@mixin poppins-500-11 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+@mixin poppins-500-12 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
 @mixin poppins-700 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -82,16 +101,4 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-}
-
-@mixin poppins-500-11 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
-
-@mixin poppins-500-12 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
 }
