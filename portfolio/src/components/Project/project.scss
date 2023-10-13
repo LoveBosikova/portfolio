@@ -1,11 +1,16 @@
 @import '../../variables.scss';
 @import '../../mixins.scss';
 
+* {
+    transition: all 0.25s ease-in-out;
+}
+
 .project {
     max-width: 100%;
     width: 100%;
     box-shadow: $card-shadow;
     border-radius: $main-borderradius;
+    margin-bottom: 4rem;
 
     &__wrap {
         @include flex-sbetween-center;
