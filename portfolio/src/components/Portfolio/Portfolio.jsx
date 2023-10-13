@@ -17,7 +17,7 @@ export default function Portfolio (props) {
                             emoji={'💤'}
                             git={'https://github.com/LoveBosikova/sleepBabySleep'}
                             demo={'https://lovebosikova.github.io/sleepBabySleep/'}
-                            description={'The SleepBabySleep website is an online platform that allows users to normalixe kids sleeping. The website provides an interface for input, searching, saving sleep intervals and statistic scrutiny.'}
+                            description={'The SleepBabySleep website is an online platform that allows users to normalize kids sleeping. It provides an interface for input, searching, saving sleep intervals and statistic scrutiny.'}
                             tech1={'SCSS'}
                             tech2={'Vanila JS'}
                             flex={'column'}/>
