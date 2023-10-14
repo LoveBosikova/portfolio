@@ -3,14 +3,15 @@
 
 
 .contacts {
-    @include portfolio-width;
+    @include container-width;
     @include mx-center;
     align-content: center;
-    padding-top: 7rem;
+    padding-top: 10rem;
     padding-bottom: 7rem;
 
     &__itemsWrap {
         display: flex;
+        flex-wrap: wrap;
         gap: 6.5rem;
         margin-top: 5rem;
         margin-bottom: 5rem;

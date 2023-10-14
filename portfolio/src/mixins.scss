@@ -23,7 +23,9 @@
 }
 
 @mixin container-width {
-    width: 50vw;
+    max-width: 60rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 @mixin portfolio-width {

@@ -4,6 +4,7 @@ import About from '../About/About';
 import Me from '../Me/Me';
 import Portfolio from '../Portfolio/Portfolio';
 import Contacts from '../Contacts/Contacts';
+import Footer from '../Footer/Footer';
 
 export default class App extends React.Component {
     constructor (props) {
@@ -19,6 +20,7 @@ export default class App extends React.Component {
                     <Me />
                     <Portfolio />
                     <Contacts />
+                    <Footer />
                 </main>
             </>
         )

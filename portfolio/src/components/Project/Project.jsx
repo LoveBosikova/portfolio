@@ -12,7 +12,7 @@ export default function Project (props) {
         <article className="project">
             <div className={flexDirection}>
                 <div className="project__imgSide">
-                    <a className="project__imgWrap" href="http://" target="_blank">
+                    <a className="project__imgWrap" href={props.demo} target="_blank">
                         <img src={props.img} alt={props.alt} className="project__img" />
                     </a>
                 </div>

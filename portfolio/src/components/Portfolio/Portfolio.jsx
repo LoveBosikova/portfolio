@@ -5,7 +5,7 @@ import styles from './portfolio.scss';
 
 export default function Portfolio (props) {
     return (
-        <section className="portfolio__wrap">
+        <section className="portfolio__wrap" id="projects">
             <div className="portfolio">
                 <Uptitle text={'PORTFOLIO'}/>
                 <Title text={'Each project is a unique piece of development 🧩'}/>
@@ -42,8 +42,8 @@ export default function Portfolio (props) {
                             description={'The English language school web application allows you to choose a group by level and a tutor. The site also has a test that will help determine your level of English proficiency.'}
                             tech1={'SASS'}
                             tech2={'Vanila JS'}
-                            demo={'https://github.com/LoveBosikova/english-school'}
-                            git={'https://taorkon.github.io/english-school/'}
+                            demo={'https://taorkon.github.io/english-school/'}
+                            git={'https://github.com/LoveBosikova/english-school'}
                             flex={'column'}/>
 
                     <Project img={'./flyjet.webp'}

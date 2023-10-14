@@ -4,7 +4,7 @@ import Title from "../Title/Title";
 
 export default function Contacts (props) {
     return (
-        <section className="contacts">
+        <section className="contacts" id="contacts">
             <div className="contacts__wrap">
                 <Uptitle text={'CONTACT'} />
                 <Title text={'Don\'t be shy! Hit me up! 👇'}/>

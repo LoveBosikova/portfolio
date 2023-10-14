@@ -2,10 +2,12 @@
 @import '../../mixins.scss';
 
 .portfolio {
-    @include portfolio-width;
     @include mx-center;
     padding-top: 10rem;
     padding-bottom: 10rem;
+    max-width: 57rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 
     &__wrap {
     background-color: $light-bgcolor;
