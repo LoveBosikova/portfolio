@@ -16,6 +16,10 @@
         @include flex-sbetween-center;
         padding: 1rem;
         gap: 2rem;
+
+        @media (max-width: 900px) {
+            flex-direction: column;
+        }
     }
 
     &__imgSide {
@@ -25,6 +29,10 @@
         box-shadow:  $card-shadow;
         border-radius: $main-borderradius;
         overflow: hidden;
+
+        @media (max-width: 900px) {
+            max-width: 95%;
+        }
     }
 
     &__img {
@@ -47,6 +55,13 @@
         width: 40%;
         max-width: 40%;
         padding-top: 1.2rem;
+
+        @media (max-width: 900px) {
+            width: 65%;
+            max-width: 70%;
+            align-self: center;
+            padding-bottom: 1.2rem;
+        }
     }
 
     &__name {
@@ -122,9 +137,17 @@
 }
 
 .flex-reverse {
-    flex-direction: row-reverse !important;
+    flex-direction: row-reverse;
+    
+    @media (max-width: 900px) {
+        flex-direction: column;
+    }
 }
 
 .flex-column {
     flex-direction: row;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+    }
 }
