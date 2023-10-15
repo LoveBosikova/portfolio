@@ -12,6 +12,14 @@
         @include portfolio-width;
         @include mx-center;
         @include flex-sbetween-center;
+        max-width: 1024px;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+            gap: 2rem;
+            max-width: 80vw;
+            width: 80vw;
+        }
     }
 
     &__contacts {
