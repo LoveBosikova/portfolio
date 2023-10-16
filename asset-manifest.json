@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/LoveBosikova/LoveBosikova.github.io.git/static/css/main.aed027a6.css",
+    "main.js": "/LoveBosikova/LoveBosikova.github.io.git/static/js/main.f469be16.js",
+    "static/media/AboutPhoto.jpeg": "/LoveBosikova/LoveBosikova.github.io.git/static/media/AboutPhoto.154fbe420b91c2dc83e4.jpeg",
+    "index.html": "/LoveBosikova/LoveBosikova.github.io.git/index.html",
+    "main.aed027a6.css.map": "/LoveBosikova/LoveBosikova.github.io.git/static/css/main.aed027a6.css.map",
+    "main.f469be16.js.map": "/LoveBosikova/LoveBosikova.github.io.git/static/js/main.f469be16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aed027a6.css",
+    "static/js/main.f469be16.js"
+  ]
+}
